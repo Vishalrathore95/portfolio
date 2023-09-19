@@ -1,0 +1,152 @@
+/* Reset default browser styles */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px 30px;
+    background-color: #f0f0f0;
+}
+ /* Style the header */
+header {
+    background-color: #007bff; /* Change this to your desired background color */
+    color : #fff; /* Change this to your desired text color */
+    padding:  30px; /* Adjust the padding as needed */
+  }
+  
+  /* Style the navigation menu */
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between menu items as needed */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff; /* Change this to your desired link color */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+    background-color: gainsboro; /* Add underline on hover if desired */
+  }
+/* Apply a basic reset to remove default margin and padding */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Style the main container */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the container within the main */
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 80%;
+    padding: 40px;
+    border: 1PX solid black;
+    margin: 0 auto;
+}
+h2{
+    font-size: 25PX;
+    color: #0056b3;
+ 
+  
+    
+}
+/* Style box1 (containing the image) */
+.box1 {
+    display: flex;
+    margin: 0%;
+    height: 100%;
+}
+
+/* Style box2 (containing the form) */
+/* Style the outer container */
+.box2 {
+    width: 400px; /* Set the width of the container */
+     margin: 0%; 
+    padding: 20px;
+    border: 1px solid black; /* Add some padding for spacing */
+              
+}
+
+/* Style the image within the container */
+
+.box2 {
+    width: 450px; /* Set the width of the container */
+    margin: 0; /* Center the container horizontally */
+    padding: 0px; /* Add some padding for spacing */
+    background-color: #f0f0f0; /* Set a background color */
+    border: 1px solid #ccc; /* Add a border */
+}
+
+/* Style the image within the container */
+.box2 img {
+    width: 100%;
+    object-fit: initial;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+ 
+
+/* Style the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style labels for form inputs */
+label {
+    font-weight: bold;
+}
+
+/* Style form inputs and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Apply a background color to the main section */
+

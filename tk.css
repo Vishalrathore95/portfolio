@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ /* Style the header */
+header {
+    background-color: #007bff; /* Change this to your desired background color */
+    color: #fff; /* Change this to your desired text color */
+    padding:  30px; /* Adjust the padding as needed */
+  }
+  
+  /* Style the navigation menu */
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between menu items as needed */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff; /* Change this to your desired link color */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+    background-color: gainsboro; /* Add underline on hover if desired */
+  }
+/* Apply styles to the main container */
+main {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px; /* Adjust as needed */
+}
+h1{
+  text-align: center;
+  color: darkblue;
+  padding: 0%;
+  margin: auto;
+}
+/* Style the container holding the boxes */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+
+/* Style individual boxes */
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    flex: 0 0 calc(33.33% - 10px); /* Adjust width and spacing as needed */
+    margin-bottom: 20px; /* Adjust spacing between boxes */
+    /* background-color: #f2f2f2; Background color for the boxes */
+    padding: px; /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+/* Style images within boxes (adjust as needed) */
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img,
+.box5 img,
+.box6 img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+}
+
+
+
+  
